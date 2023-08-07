@@ -1,0 +1,3 @@
+#!/bin/bash
+pip install -r requirements.txt > /dev/null 2>&1
+nohup django-admin runserver 0.0.0.0:8080 --pythonpath=. --settings=advanced_state_server > /dev/null 2>&1
